@@ -1,0 +1,29 @@
+{
+  "name": "goit-js-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Maxim-Ibraiev.github.io/goit-js-hw-01",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url=/goit-js-hw-01/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxim-Ibraiev/goit-js-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Maxim Ibraiev <maxim.n1@i.ua>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxim-Ibraiev/goit-js-hw-01/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.4.3",
+    "sass": "^1.26.9"
+  }
+}
